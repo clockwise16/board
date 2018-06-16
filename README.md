@@ -6,7 +6,7 @@
 
 * `redirect '/'`를 통해 `/create`로 이동없이 내용 저장 가능.
 
-* `require 'sinatra/reloader'` : 자동으로 코드 변화를 Ruby 파일에 다시 바꿔준다.
+* `require 'sinatra/reloader'` : 코드 변화를 자동으로 Ruby 파일에 적용 해준다.
 
 * `require 'csv'` : Excel 형태의 csv 파일을 가져올 수 있게 해준다.
 
@@ -93,7 +93,7 @@
   Member.auto_upgrade!
   ```
 
-*  **Bundler** : 필요한 gem의 정확한 버전을 추적하여 프로젝트에 일관된 환경을 제공, 
+*  **Bundler** : 필요한 gem의 정확한 버전을 추적하여 프로젝트에 일관된 환경을 제공 
 
   * Bundler 설치
 
