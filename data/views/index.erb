@@ -1,0 +1,11 @@
+<h1>게시판</h1>
+<form action="/create">
+    제목 : <input type="text" name="title">
+    내용 : <input type="text" name="content">
+    <input type="submit">
+</form>
+
+<% @posts.each do |p| %>
+    <p>제목 : <%= p.title %></p>
+    <p>내용 : <%= p.body %></p>
+<% end %>

@@ -1,0 +1,21 @@
+<h1>등록된 회원들</h1>
+
+
+<table>
+  <tr>
+    <th>이름</th>
+    <th>학번</th>
+    <th>전공</th>
+    <th>전번</th>
+    <th>이멜</th>
+  </tr>
+    <% @members.each do |m| %>
+    <tr>
+        <td><%= m.name %></td>
+        <td><%= m.year %></td>
+        <td><%= m.major %></td>
+        <td><%= m.phone_number %></td>
+        <td><%= m.email %></td>
+    </tr>
+    <% end %>
+</table>
