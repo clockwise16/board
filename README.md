@@ -4,7 +4,7 @@
 
 ### 제목과 내용 입력 가능한 게시판
 
-* `redirect '/'`를 통해 `/creat`로 이동없이 내용 저장 가능.
+* `redirect '/'`를 통해 `/create`로 이동없이 내용 저장 가능.
 
 * `require 'sinatra/reloader'` : 자동으로 코드 변화를 Ruby 파일에 다시 바꿔준다.
 
